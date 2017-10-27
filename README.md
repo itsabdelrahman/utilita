@@ -26,18 +26,15 @@ import { set } from 'utilita';
 set({ name: 'Joe' }, 'age', 22); // { name: 'Joe', age: 22 }
 ```
 
-#### `logJSON`
+#### `randomString`
 
-Logs prettified JSON to console.
+Generates a random string of a specified length that contains Arabic numerals 0–9 & lowercase Latin letters a–z.
 
 ```javascript
-import { logJSON } from 'utilita';
+import { randomString } from 'utilita';
 
-logJSON({ name: 'Joe' });
-// {
-//  "name": "Joe",
-//  "age": 22
-// }
+randomString(4); // qvyn
+randomString(7); // tp3o8ow
 ```
 
 #### `testRegex`
@@ -51,15 +48,18 @@ testRegex('ab+', 'a'); // false
 testRegex('ab+', 'ab'); // true
 ```
 
-#### `randomString`
+#### `logJSON`
 
-Generates a random string of a specified length that contains Arabic numerals 0–9 & lowercase Latin letters a–z.
+Logs prettified JSON to console.
 
 ```javascript
-import { randomString } from 'utilita';
+import { logJSON } from 'utilita';
 
-randomString(4); // qvyn
-randomString(7); // tp3o8ow
+logJSON({ name: 'Joe' });
+// {
+//  "name": "Joe",
+//  "age": 22
+// }
 ```
 
 ## License
