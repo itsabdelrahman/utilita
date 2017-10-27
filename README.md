@@ -51,6 +51,17 @@ testRegex('ab+', 'a'); // false
 testRegex('ab+', 'ab'); // true
 ```
 
+#### `randomString`
+
+Generates a random string of a specified length that contains Arabic numerals 0–9 & lowercase Latin letters a–z.
+
+```javascript
+import { randomString } from 'utilita';
+
+randomString(4); // qvyn
+randomString(7); // tp3o8ow
+```
+
 ## License
 
 MIT License
