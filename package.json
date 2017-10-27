@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ar-maged/utilita/issues"
   },
-  "homepage": "https://github.com/ar-maged/utilita#readme"
+  "homepage": "https://github.com/ar-maged/utilita#readme",
+  "dependencies": {
+    "lodash.merge": "^4.6.0"
+  }
 }
