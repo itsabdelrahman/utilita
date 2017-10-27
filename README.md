@@ -33,11 +33,22 @@ Logs prettified JSON to console.
 ```javascript
 import { logJSON } from 'utilita';
 
-logJSON({ name: 'Joe' }); 
+logJSON({ name: 'Joe' });
 // {
 //  "name": "Joe",
 //  "age": 22
 // }
+```
+
+#### `testRegex`
+
+Tests for a match between a regular expression and a specified string.
+
+```javascript
+import { testRegex } from 'utilita';
+
+testRegex('ab+', 'a'); // false
+testRegex('ab+', 'ab'); // true
 ```
 
 ## License
