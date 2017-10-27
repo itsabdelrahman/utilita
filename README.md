@@ -18,7 +18,7 @@ $ npm i -g utilita
 
 #### `set`
 
-Copies source object deeply & recursively, and assigns new property to copy.
+Assigns a property to a deep clone of the source object.
 
 ```javascript
 import { set } from 'utilita';
@@ -26,9 +26,19 @@ import { set } from 'utilita';
 set({ name: 'Joe' }, 'age', 22); // { name: 'Joe', age: 22 }
 ```
 
+#### `replaceAt`
+
+Replaces an element at a specified array index.
+
+```javascript
+import { replaceAt } from 'utilita';
+
+replaceAt([1, 2, 3], 1, 111); // [ 1, 111, 3 ]
+```
+
 #### `randomString`
 
-Generates a random string of a specified length that contains Arabic numerals 0–9 & lowercase Latin letters a–z.
+Generates a random string of a specified length that contains lowercase Latin letters a–z & Arabic numerals 0–9.
 
 ```javascript
 import { randomString } from 'utilita';
