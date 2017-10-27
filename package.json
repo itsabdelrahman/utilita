@@ -1,0 +1,22 @@
+{
+  "name": "utilita",
+  "version": "0.1.0",
+  "description": "Utilities for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ar-maged/utilita.git"
+  },
+  "keywords": [
+    "utilities"
+  ],
+  "author": "A.R. Maged <abdulrahman.maged95@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ar-maged/utilita/issues"
+  },
+  "homepage": "https://github.com/ar-maged/utilita#readme"
+}
