@@ -11,7 +11,7 @@ No genius here - that's just the stuff you toss in your project's utilities file
 ## Installation
 
 ```
-$ npm i -g utilita
+$ npm i utilita
 ```
 
 ## Usage
