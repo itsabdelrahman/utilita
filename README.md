@@ -65,7 +65,7 @@ Logs prettified JSON to console.
 ```javascript
 import { logJSON } from 'utilita';
 
-logJSON({ name: 'Joe' });
+logJSON({ name: 'Joe', age: 22 });
 // {
 //  "name": "Joe",
 //  "age": 22
