@@ -16,6 +16,17 @@ $ npm i utilita
 
 ## Usage
 
+#### `attempt`
+
+Attempts to invoke function, and returns either the result or the default value.
+
+```javascript
+import { attempt } from 'utilita';
+
+attempt(() => JSON.parse('[1, 2, 3]'), []); // [ 1, 2, 3 ]
+attempt(() => JSON.parse('[1, 2, ]'), []); // []
+```
+
 #### `set`
 
 Assigns a property in a deep clone of the source object.
