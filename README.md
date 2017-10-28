@@ -36,6 +36,17 @@ import { replaceAt } from 'utilita';
 replaceAt([1, 2, 3], 1, 111); // [ 1, 111, 3 ]
 ```
 
+#### `removeAt`
+
+Removes an element at a specified index in a copy of the source array, and returns both the modified array & the removed element.
+
+```javascript
+import { removeAt } from 'utilita';
+
+removeAt([1, 2, 3, 4, 5], 2).array; // [ 1, 2, 4, 5 ]
+removeAt([1, 2, 3, 4, 5], 2).element; // 3
+```
+
 #### `randomString`
 
 Generates a random string of a specified length that contains lowercase Latin letters a–z & Arabic numerals 0–9.
