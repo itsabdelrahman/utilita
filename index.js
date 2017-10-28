@@ -1,5 +1,13 @@
 const merge = require('lodash.merge');
 
+const attempt = (func, defaultValue) => {
+  try {
+    return func();
+  } catch (e) {
+    return defaultValue;
+  }
+};
+
 const set = (object, property, value) =>
   merge({}, object, { [property]: value });
 
@@ -24,6 +32,7 @@ const testRegex = (regex, string) => new RegExp(regex).test(string);
 const logJSON = json => console.log(JSON.stringify(json, null, 2));
 
 module.exports = {
+  attempt,
   set,
   replaceAt,
   removeAt,
