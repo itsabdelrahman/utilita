@@ -18,7 +18,7 @@ $ npm i utilita
 
 #### `set`
 
-Assigns a property to a deep clone of the source object.
+Assigns a property in a deep clone of the source object.
 
 ```javascript
 import { set } from 'utilita';
@@ -28,7 +28,7 @@ set({ name: 'Joe' }, 'age', 22); // { name: 'Joe', age: 22 }
 
 #### `replaceAt`
 
-Replaces an element at a specified array index.
+Replaces an element at a specified index in a copy of the source array.
 
 ```javascript
 import { replaceAt } from 'utilita';
