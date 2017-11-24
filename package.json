@@ -1,6 +1,6 @@
 {
   "name": "utilita",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Utilities for JavaScript",
   "main": "index.js",
   "scripts": {
@@ -36,5 +36,8 @@
       "prettier --single-quote --trailing-comma es5 --write",
       "git add"
     ]
+  },
+  "engines" : {
+     "node" : ">=4.0.0"
   }
 }
